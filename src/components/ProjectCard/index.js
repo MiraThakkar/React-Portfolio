@@ -6,7 +6,7 @@ function ProjectCard(props) {
 
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img  className = "projectImg" alt={props.name} src={props.image} />
       </div>
       <div className="content">
         <ul>
@@ -17,7 +17,12 @@ function ProjectCard(props) {
             <p>{props.description}</p> 
           </li>
         </ul>
+        
       </div>
+
+      <span className="remove">
+          <a href = {props.URL}> <i className="fa fa-link"  ></i></a>
+      </span>
       
     </div>
   );

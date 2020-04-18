@@ -37,7 +37,7 @@ function ContactForm(props) {
           id="message"
           rows="5"
         />
-        <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
+        <button type="submit" onClick={props.handleFormSubmit} className="btn btn-primary">
           Submit
         </button>
       </div>

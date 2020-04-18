@@ -21,6 +21,7 @@ function App() {
           <Route exact path="/discover" component={Portfolio} />
           <Route exact path="/search" component={Contact} />
         </Wrapper>
+        <Footer />
       </div>
     </Router>
   );

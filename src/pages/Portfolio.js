@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import ProjectCard from "../components/ProjectCard";
-import projects from "../utils/API.json";
+import projects from "../utils/API.js";
 
 
 
@@ -46,6 +46,7 @@ class Portfolio extends Component {
                     name={project.name}
                     image={project.image}
                     description={project.description}
+                    URL = {project.URL}
                 />
                 </Col>
             ))}

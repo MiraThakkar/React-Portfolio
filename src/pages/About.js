@@ -14,9 +14,9 @@ function About() {
         <Row>
           <Col size="md-4">
 
-            <div className="card" style = {{ textAlign: "center", height: "400px"}}>
+            <div className="card" style = {{ textAlign: "center", height: "380px"}}>
               <div className = "text-center">
-                <img src= {ProfileImage} class= "img-fluid" alt="..."  style = {{height: "300px"}}/>
+                <img src= {ProfileImage} class= "img-fluid" alt="..."  style = {{height: "200px"}}/>
               </div>
               <div id = "badge" class="card-body">
                 <h3 className="card-title">Mira Thakkar</h3>
