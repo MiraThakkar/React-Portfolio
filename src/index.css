@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.img-fluid {   
+
+  /* margin-top: 5px; */
+  width: 95%;
+  height:200px;
+  justify-content: center !important;
+  margin-top: 8px;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
