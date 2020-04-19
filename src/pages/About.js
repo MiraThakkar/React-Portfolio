@@ -31,7 +31,7 @@ function About() {
           </Col>
 
         
-          <Col size="md-8">
+          <Col size="md-8 sm-6">
 
             <h6>
                 I have Bachelor's Degree in Computer Applcations and

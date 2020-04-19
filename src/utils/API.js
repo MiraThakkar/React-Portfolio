@@ -34,7 +34,7 @@ export default [
   },
   {
     id: 5,  
-    name: "Budget Panner",
+    name: "Budget Tracker",
     description: "Money matters app to track budget",
     image: require("./images/BudgetApp.PNG"),
     URL: "https://wealthmatters.herokuapp.com/"
